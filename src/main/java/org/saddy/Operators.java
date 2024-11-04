@@ -6,9 +6,9 @@ public class Operators {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 //        calculate();
-//        display();
+        display();
 //        comparatorEx();
-        useOfTernaryOperator();
+//        useOfTernaryOperator();
     }
 
     static void useOfTernaryOperator(){
@@ -38,11 +38,13 @@ public class Operators {
 
     public static void display() {
         System.out.println("Enter a number: ");
-        int num1 = scanner.nextInt();
-        System.out.println(num1++);
-        System.out.println(++num1);  //35
+        int num1 = scanner.nextInt();  //input 34
 
+//        System.out.println(num1++);  //34
+//        System.out.println(++num1);  //35
+//
         System.out.println(num1--);  // 35
+
         System.out.println(--num1);  // 33
     }
 
