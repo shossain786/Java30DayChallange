@@ -1,5 +1,6 @@
 package org.saddy;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ArrayDemo {
@@ -8,7 +9,7 @@ public class ArrayDemo {
         num1 = new int[]{1, 3, 66};
 
         int []num3 = {10, 20, 5, 30, 45, 3};
-        int num4[] = {10, 20, 10, 30}; //c-type declaration. Not recommended in Java
+        int num4[] = {10, 20, 10, 30, 7}; //c-type declaration. Not recommended in Java
         num2 = new int[5]; // when we dont knwo the data is going to be in the array. In this approch its going to
 //        store the default values.
 
